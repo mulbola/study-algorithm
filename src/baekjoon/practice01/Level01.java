@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 /**
  * 입출력과 사칙연산 : https://www.acmicpc.net/step/1
- * */
+ */
 public class Level01 {
 
     public void no2557() {
@@ -122,10 +122,10 @@ public class Level01 {
             int b = Integer.parseInt(st.nextToken());
             int c = Integer.parseInt(st.nextToken());
 
-            System.out.println((a+b)%c);
-            System.out.println(((a%c) + (b%c))%c);
-            System.out.println((a*b)%c);
-            System.out.println(((a%c) * (b%c))%c);
+            System.out.println((a + b) % c);
+            System.out.println(((a % c) + (b % c)) % c);
+            System.out.println((a * b) % c);
+            System.out.println(((a % c) * (b % c)) % c);
         } catch (IOException e) {
             System.out.println(e);
         }
@@ -139,9 +139,9 @@ public class Level01 {
             String no2Str = br.readLine();
             char[] no2Array = no2Str.toCharArray();
 
-            int a = no2Array[0]-'0';
-            int b = no2Array[1]-'0';
-            int c = no2Array[2]-'0';
+            int a = no2Array[0] - '0';
+            int b = no2Array[1] - '0';
+            int c = no2Array[2] - '0';
 
             System.out.println(no1 * c);
             System.out.println(no1 * b);
@@ -168,4 +168,5 @@ public class Level01 {
             System.out.println(e);
         }
     }
+
 }

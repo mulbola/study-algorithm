@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 //        Level01 l1 = new Level01();
         Level02 l2 = new Level02();
-        l2.no1330();
+        l2.no2480();
     }
 }
 

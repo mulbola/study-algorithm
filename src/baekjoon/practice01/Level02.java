@@ -82,7 +82,7 @@ public class Level02 {
             int no1 = Integer.parseInt(br.readLine());
             int no2 = Integer.parseInt(br.readLine());
 
-            if(no1 > 0 && no2 > 0) {
+            if (no1 > 0 && no2 > 0) {
                 System.out.println(1);
             } else if (no1 < 0 && no2 > 0) {
                 System.out.println(2);
@@ -152,7 +152,7 @@ public class Level02 {
             int c = Integer.parseInt(st.nextToken());
             int result = 0;
 
-            if ( a == b && b == c) {
+            if (a == b && b == c) {
                 result = 10000 + (a * 1000);
             } else if (a == b || a == c) {
                 result = 1000 + (a * 100);
@@ -166,28 +166,6 @@ public class Level02 {
             }
 
             System.out.println(result);
-
-        } catch (IOException e) {
-            System.out.println(e);
-        }
-    }
-
-    public void no4375() {
-        try {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-            String startTime = br.readLine();
-            StringTokenizer st = new StringTokenizer(startTime, " ");
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-
-            int time = Integer.parseInt(br.readLine());
-
-            int toTime = a * 60 + b + time;
-            a = (toTime / 60) % 24;
-            b = toTime % 60;
-
-            System.out.println(a + " " + b);
 
         } catch (IOException e) {
             System.out.println(e);

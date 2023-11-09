@@ -1,13 +1,17 @@
 import baekjoon.practice01.Level01;
 import baekjoon.practice01.Level02;
+import baekjoon.practice01.Level03;
 import baekjoon.practice01.Math01;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 //        Level01 l1 = new Level01();
 //        Level02 l2 = new Level02();
-        Math01 m1 = new Math01();
-        m1.no17427();
+//        Math01 m1 = new Math01();
+        Level03 l3 = new Level03();
+
+        l3.no2752();
+
     }
 }
 

@@ -1,1 +1,1 @@
-# study-alogorithm
+# study-algorithm
